@@ -71,7 +71,7 @@ nav li {
     margin-bottom: 30px;
 }
 
-/* main section */
+/* --------------------main section ------------------------------*/
 main {
     max-width: 1140px;
     margin: 0 auto;
@@ -116,7 +116,7 @@ section{
     color: #474747;
 }
 
-/* What i do styles */
+/*----------------------- What i do styles--------------------------*/
 
 .skills-container{
     display: flex;
@@ -195,10 +195,30 @@ input{
 }
 
 
+
 /* ------------Media Quires for small Devices-------------- */
 
 @media screen and (max-width:576px){
 
+    
+    .skills-container{
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+    .skill{
+        box-shadow: 2px 2px 10px 1px rgba(160, 190, 255, 0.74);
+        margin: 0 10px;
+    }
+    .hide{
+        display: none;
+        
+    }
+
+    .resume-content{
+        flex-direction: column;
+        padding:10px 20px;
+    }
     
 }
 
@@ -207,6 +227,21 @@ input{
 /* ------------Media Quires for Medium Devices-------------- */
 
 @media screen and (min-width:577px) and (max-width:992px){
-    
-    
+    .hide{
+        display: none;
+        
+    }
+     .skills-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .skill{
+        width: 40%;
+        box-shadow: 2px 2px 10px 1px rgba(160, 190, 255, 0.74);
+    }
+    .resume-content{
+        padding:10px 25px;
+    }
 }
