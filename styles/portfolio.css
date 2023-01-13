@@ -201,7 +201,7 @@ input{
 @media screen and (max-width:576px){
 
     
-    .skills-container{
+    .skills-container, .about-info-container{
         flex-direction: column;
         gap: 12px;
         text-align: center;
@@ -219,7 +219,24 @@ input{
         flex-direction: column;
         padding:10px 20px;
     }
+
+    .contact{
+        gap: 40px;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 3px 5px;
+    }
     
+    input{
+        height:50px;
+    }
+    .about{
+        padding: 20px;
+    }
 }
 
 
@@ -243,5 +260,23 @@ input{
     }
     .resume-content{
         padding:10px 25px;
+    }
+    .about{
+        padding: 50px;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea{
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 3px 5px;
+    }
+    
+    input{
+        height:50px;
+    }
+    .contact{
+        padding: 60px;
+        flex-direction: column;
+        gap: 40px;
     }
 }
