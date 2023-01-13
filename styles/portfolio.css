@@ -25,7 +25,7 @@
     background-position: bottom right, left;
 }
 
-/* header and navigation styles */
+/*------------------- header and navigation styles -------------------*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@ nav li {
     margin-left: 50px;
 }
 
-/* banner styles */
+/* -------------------banner styles -------------------*/
 .banner {
     display: flex;
     align-items: center;
@@ -79,7 +79,7 @@ main {
 section{
     margin-top: 130px;
 }
-/* about section styles */
+/* -------------------about section styles------------------- */
 .about {
     background: #FFF8F3;
     border-radius: 10px;
@@ -138,7 +138,7 @@ section{
     color: #757575;
 }
 
-/* Resume Styles */
+/* -------------------Resume Styles------------------- */
 .resume-content{
     display: flex;
     gap: 24px;
@@ -168,7 +168,7 @@ section{
     text-align: center;
 }
 
-/* contact styles */
+/* -------------------contact styles -------------------*/
 .contact{
     display: flex;
     gap: 100px;
@@ -192,4 +192,21 @@ input{
 
 .contact a{
     text-decoration: none;
+}
+
+
+/* ------------Media Quires for small Devices-------------- */
+
+@media screen and (max-width:576px){
+
+    
+}
+
+
+
+/* ------------Media Quires for Medium Devices-------------- */
+
+@media screen and (min-width:577px) and (max-width:992px){
+    
+    
 }
